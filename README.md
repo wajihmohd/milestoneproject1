@@ -5,11 +5,11 @@ Intelligance and quize game:
 The Plan:
 1. The mockup of the Game
 2. System Analysis
-    a. How many pages to design 
-    b.What each page should be consist of
-    c. What kind of Questions
+a. How many pages to design 
+b.What each page should be consist of
+c. What kind of Questions
 3. System design
-    a. write codes
+a. write codes
 4.Execute the game
 5. Find the errors
 
