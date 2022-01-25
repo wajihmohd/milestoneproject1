@@ -1,7 +1,17 @@
 # milestoneproject1
 # NJIT-SD-03 Milestone Project: Planning
 
-_Before you start programming your project_... plan it!
+Intelligance and quize game:
+The Plan:
+1. The mockup of the Game
+2. System Analysis
+    a. How many pages to design 
+    b.What each page should be consist of
+    c. What kind of Questions
+3. System design
+    a. write codes
+4.Execute the game
+5. Find the errors
 
 Complete the planning sections below and include them in the README.md of your project repository. Once you're done, reach out to your instructional staff -- they'll examine your plan, help you scope it appropriately for the tools available to you and think ahead toward technical solutions, and point out any areas that could use any more thought. _Use the template below!_
 
