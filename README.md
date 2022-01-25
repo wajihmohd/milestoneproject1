@@ -1,63 +1,46 @@
 # milestoneproject1
 # NJIT-SD-03 Milestone Project: Planning
 
-Intelligance and quize game:
+Intelligance and quiz game:
 The Plan:
 1. The mockup of the Game
 2. System Analysis
-a. How many pages to design 
-b.What each page should be consist of
-c. What kind of Questions
+    a. How many pages to design 
+    b.What each page should consist of
+    c. What kind of Questions
 3. System design
-a. write codes
-4.Execute the game
+    a. write codes
+4. Execute the game
 5. Find the errors
 
-Complete the planning sections below and include them in the README.md of your project repository. Once you're done, reach out to your instructional staff -- they'll examine your plan, help you scope it appropriately for the tools available to you and think ahead toward technical solutions, and point out any areas that could use any more thought. _Use the template below!_
-
---------
-
 ## Project Description
-
-_(Replace this text with a brief description of your game and what inspired you to make it.)_
+In this game there are different types of questions: intelligence, mathematical and others that the player will answer
 
 ## Game Logic
-
-```
-Replace this text with pseudocode.
-The pseudocode should describe in plain, simple language the logic of the game.
-Describe the logic involved in player decisions. 
-  - What are the choices available to the player? 
-  - What happens when the player makes a choice?
-Describe the logic that evaluates the player's victory/loss/progress status.
-```
-
-## Deliverables
-
->Even if you have a great big idea for a game, it's important to scope this project according to what you can get done in the next two weeks. We'll refer to your project completion goal using the term **[Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product) (MVP)** -- a list of the criteria needed to "ship" a playable version of your game that meets the project requirements.
->
->*Don't lose sight of your big ideas, though! Keep a list of further improvements you can refer to as **Post-MVP Ideas**. You might finish some before or project time is done, or you might work on them later!*
->
-> For your README, delete this blockquote and fill in the lists below.
+Use the DOM to create buttons, input text, labels and other elemments 
+For each question there will be 3 or 4 choices for the player to choose 
+Use the if statement to decide what actions to execute when the player chooses the correct or the wrong answer
+If the answer is correct there are points which will increase each time the answer is correct
+if the points are more than 50% the game will congrats the player.
+the game may be a one or two player game
 
 ### MVP Criteria
 
-- One thing my game must do to meet my minimum standard.
-- Another thing.
-- Etc.
+- One thing my game must do to meet my minimum standard is:to work for at least one player 
+- it should work and give the congratulations statement for the winner
 
 ### Post-MVP Plans
 
-- One great idea I hope to be able to add in before the project deadline.
-- Another that will be a stretch.
-- Something else I don't technically know how to do... *yet*. :)
+- One great idea I hope to be able to add in before the project deadline is to make the mockup work
+- Another plan is to make sure the game operates as desired 
+
 
 ## Project Planning
 
 | Date | Goals |
 | ---- | ----- |
 | Sun. 01/23 | Create GitHub repository. Complete README.md. |
-| Tue. 01/25 |      |
+| Tue. 01/25 |  start do the mockup    |
 | Thu. 01/27 |      |
 | Sun. 01/30 |      |
 | Tue. 02/01 |      |
