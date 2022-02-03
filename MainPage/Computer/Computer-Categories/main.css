@@ -1,0 +1,187 @@
+
+
+html {
+    height: 100%; overflow-y: scroll;}
+body {
+    font-family: nunito, arial, helvetica, sans-serif; font-size: 20px; 
+    color: #fff; height: 100%; margin: 0px; text-align: center;
+     background-color: #E3E1EB; background-repeat: no-repeat;
+    }
+
+img {
+    image-rendering: -webkit-optimize-contrast;
+}
+#topbar {
+    position: sticky; top: 0; background-color: #22155A;
+    margin-bottom: 5px; text-align: center; padding: 0px; 
+    z-index: 20; box-shadow: 0px 0px 5px 5px #000;
+}	
+#topinbar {
+    top: 0; max-width: 760px; padding-top: 5px; 
+    text-align: left; margin-left: auto; margin-right: auto;
+     font-size: 0.6em; color: #cdcbd6;
+    }
+#topinbar .logo img 
+{
+    padding: 0px 0px 0px 0px; margin: 0px; border: none; vertical-align:middle; height: 32px;
+}
+#content {
+    max-width: 790px; min-width: 310px; margin-left: auto;
+     margin-right: auto; margin-top: 10px;
+    }
+#banner {
+    margin-bottom: 5px; max-height: 90px !important;
+}
+.bannertmp {
+    width: 250px; height: 50px;
+}
+#cats {
+    max-width: 400px; margin-bottom: 20px; margin-left: auto; margin-right: auto;
+}
+#cats h1 {
+    display: block; margin: 0px; padding: 0px; font-size: 0.9em; color: #000; height: 32px; 
+    line-height: 2em; margin-bottom: 10px; text-align: center; z-index: 5;
+}
+#cats h1.mleft {
+    margin-left: 80px; margin-right: 5px; text-align: left;
+}
+#cats ul {
+    margin: 0px; padding: 0px; border-radius: 10px; text-align: center;
+}
+#cats li {
+    list-style-type: none; width: 30%; display: inline-block; margin: 0px; margin-bottom: 10px;
+     margin-left: 4px; margin-right: 4px; text-align: center;
+    }
+#cats li h2 {
+    font-size: 0.7em; margin-top: -10px; margin-bottom: 5px; height: 24px; overflow: hidden;
+}
+#cats li a {
+    color: #22155A; text-decoration: none; width: 100%; float: left; padding-top: 10px; 
+    background-color: #fff; border-radius: 10px; box-shadow: 1px 1px 2px #999; transition: 0.2s;
+     transition-timing-function: ease;transform: translateY(0px);
+    }
+#cats li a img {
+    width: 100px; height: 100px; padding: 0px;
+}
+#cats li a:hover {
+    background-color: #fff; transform:translateY(-1px);
+     background-image: repeating-radial-gradient(circle, #fff, #fff); box-shadow: 2px 2px 2px #666;
+    }
+#cats li a:active {
+    transform: translateY(1px); box-shadow: 0px 0px 2px #22155A;
+}
+#sidebox {position: relative; width: 300px; border-radius: 10px; margin-left: auto; margin-right: auto; font-size: 0.8em; margin-bottom: 20px;}
+#sidebox .social {height: 32px; margin-bottom: 10px; padding: 0px;}
+#sidebox ul {list-style-type: none; padding: 0px; margin: 0px; text-align: left;}
+#sidebox li.topquiz {text-align: center; margin: 10px 0px 20px 0px;}
+#sidebox li.topquiz a {background-color: #fff; color: #0000EE; text-align: center; font-size: 1.1em; display: block; padding: 11px 7px; border-radius: 10px; text-decoration: none;}
+#sidebox div.poplink {color: #666; margin-top: 5px; font-size: 0.9em;}
+#sidebox div.poplink a {text-decoration:none; color: #66F;}
+#sidebox div.poplink a:hover {text-decoration:underline; color: #99F;}
+#sidelist {border-radius: 10px; background-color: #fff;}
+#sidelist h2 {margin: 0px; padding: 0px; font-size: 1.4em; color: #000; font-weight: bold; padding: 5px 0px;}
+#sidelist li {margin: 0px; padding: 0px;}
+#sidelist ul li a {font-size: 1.1em; color: #0000EE; text-decoration: none; display: block; padding: 10px 6px 10px 6px; border-top: dashed 1px #E3E1EB;}
+#sidebox li.topquiz a:hover, #sidelist ul li a:hover {background-color: #fff; text-decoration: underline;}
+#sidelist ul li:last-child a:hover {border-radius: 0px 0px 10px 10px;}
+
+
+/****** footer    ---*/
+.topnav {
+    height: 32px;
+}
+.topnav a:not(:first-child) {
+    display: none;
+}
+.topnav div.seek {
+    display: none; float: right; margin-right: 5px; 
+    text-align: left; border-radius: 5px; padding: 2px 5px;
+}
+.topnav a.icon {
+    float: right; display: block; margin-top: -5px; padding: 0px 15px;
+     color: #cdcbd6; font-size: 2em; text-decoration: none; font-weight: normal;
+    }
+.topnav a.path {
+    color: #cdcbd6; text-decoration: none;
+}
+.topnav.responsive a:not(:first-child) {
+    display: block;
+}
+.topnav.responsive {
+    height: auto;
+}
+.topnav.responsive a.icon {
+    position: absolute; right: 0px; top: 5px;
+}
+.topnav.responsive div.seek {
+    float: none; position: relative; display: block; 
+    padding: 20px; margin-left: auto; margin-right: auto; text-align: center;
+}
+a.path {
+    color: #5B49AD; text-decoration: none;
+}
+.topnav.responsive a.path {
+    margin-top: 0px; font-size: 1.4em; line-height: 1.2em;
+     height: 32px; padding: 5px; color: #E3E1EB;
+    }
+.topnav.responsive #brd1 {
+    margin-left: 0px;
+}
+.topnav.responsive #brd2 {
+    margin-left: 15px;
+}
+.topnav.responsive #brd3 {
+    margin-left: 30px;
+}
+.topnav.responsive span {
+    font-size: 1.9em; color: #454545; margin-right: 4px;
+}
+.topnav.responsive a.path:hover {
+    background-color: #000;
+}
+#footer {
+    clear: both; font-size: 0.7em; color: #22155A;
+     padding: 5px; margin-top: 20px; background-color: #fff; border-radius: 5px; 
+     margin-left: auto; margin-right: auto;
+    }
+#footer a {
+    color: #5B49AD; text-decoration: none; padding: 7px;
+}
+#footer a.factive {
+    color: #22155A;
+}
+#footer a:hover {
+    color: #22155A;
+}
+
+
+
+@media only screen and (min-width: 640px) {
+body {background-repeat: no-repeat; background-attachment: fixed;}
+#topinbar .logo img {height: 30px;}
+.bannertmp {width: 468px; height: 60px;}
+.topnav a.icon {display: none;}
+.topnav div.seek {display: inline;}
+.topnav.responsive a.path {margin-left: 10px; padding-top: 5px;}
+#cats {max-width: 530px;}
+#cats h1 {font-size: 1.15em; line-height: 1.5em;}
+#quiz h1 {font-size: 1.15em; line-height: 1.5em;}
+#cats li {width: 31%;}
+#cats li h2 {font-size: 0.9em;}
+
+.topnav a.pon {color: #fff; font-weight: bold; font-size: 1.05em;}
+.topnav span, .topnav a.path {display:inline-block; vertical-align:middle;}
+.topnav span {font-size: 0.7em; font-weight: normal;}
+.topnav a.path:hover {color: #E3E1EB; text-decoration: underline;}
+
+
+@media only screen and (min-width: 760px) {
+#topinbar .logo img {height:40px;}
+#topinbar {font-size: 0.67em;}
+#banner {margin-bottom: 15px;}
+.bannertmp {width: 728px; height: 90px;}
+#sidebox {float: right; width: 205px; font-size: 0.72em; margin-right: 5px;}
+#cats {float: left; width: 550px;}
+#footer {max-width: 770px;}
+#sidelist ul li a {font-size: 0.9em; margin: 0px 0px 0px 0px;
+}
